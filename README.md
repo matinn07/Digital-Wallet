@@ -259,7 +259,7 @@ Demonstrates ACID compliance with SQL
 
 ## 👨‍💻 Author
 
-Matin Nadaf
+Matin Nadaf |
 Computer Science Engineer | Full Stack Developer
 
 ## 📄 License
