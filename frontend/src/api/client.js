@@ -1,5 +1,5 @@
 // Set this to your Render backend URL after deployment
-const API_URL ="https://digital-wallet-u596.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://digital-wallet-u596.onrender.com" || 'http://localhost:4000';
 
 async function apiFetch(path, options = {}) {
   const res = await fetch(`${API_URL}${path}`, {
