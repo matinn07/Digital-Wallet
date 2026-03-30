@@ -199,9 +199,13 @@ PUT /profile/update
 
 ### 🎯 Key Highlights (For Interviews)
 Real-world financial system design
+
 Uses SERIALIZABLE isolation (rare in projects)
+
 Strong OOP implementation in backend
+
 Clean architecture (Controller → Service → Domain → Model)
+
 Demonstrates ACID compliance with SQL
 
 ## 👨‍💻 Author
