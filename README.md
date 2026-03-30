@@ -96,29 +96,53 @@ This system allows users to securely manage funds, perform transactions, and tra
 ---
 
 ## 📁 Project Structure
+
 Digital-Wallet/
+
 │
+
 ├── backend/
+
 │ ├── config/
+
 │ ├── controllers/
+
 │ ├── middleware/
+
 │ ├── models/
+
 │ │ ├── transactions/
+
 │ │ ├── domain/
+
 │ ├── routes/
+
 │ ├── services/
+
 │ ├── utils/
+
 │ ├── schema.sql
+
 │ └── server.js
+
 │
+
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── api/
+
 │ │ ├── context/
+
 │ │ ├── pages/
+
 │ │ ├── App.jsx
+
 │ │ └── main.jsx
+
 │
+
 └── screenshots/
 
 
