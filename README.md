@@ -166,38 +166,63 @@ npm install
 Create .env file:
 
 PORT=4000
+
 CLIENT_ORIGIN=http://localhost:5173
+
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=yourpassword
+
 DB_NAME=wallet_db
+
 SEQUELIZE_SYNC=true
 
 Run backend:
 npm start
 
 ### 3️⃣ Frontend Setup
+
 cd frontend
+
 npm install
+
 npm run dev
-🔌 API Endpoints
+
+### 🔌 API Endpoints
+
 Auth
+
 POST /auth/register
+
 POST /auth/login
+
 POST /auth/logout
+
 Wallet
+
 GET /wallet
+
 POST /wallet/create
+
 Transactions
+
 POST /transactions/credit
+
 POST /transactions/debit
+
 POST /transactions/transfer
+
 GET /transactions/history
+
 Profile
+
 GET /profile
+
 PUT /profile/update
 
-### 🎯 Key Highlights (For Interviews)
+### 🎯 Key Highlights 
 Real-world financial system design
 
 Uses SERIALIZABLE isolation (rare in projects)
